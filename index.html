@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Personal portfolio of John Liu — Engineering Manager at Netskope, Ex-CTO, Speaker, and Educator." />
+  <meta name="keywords"
+    content="John Liu, Engineering Manager, Netskope, CTO, Software Engineer, Portfolio, Speaker, Online Courses, Laravel, Python, GCP, Kubernetes" />
+  <meta property="og:title" content="John Liu — Engineering Manager & Ex-CTO" />
+  <meta property="og:description"
+    content="Engineering Manager at Netskope, former CTO of a real estate startup. Expert in full-stack development, cloud infrastructure, and technical leadership." />
+  <meta property="og:type" content="website" />
+  <title>John Liu — Engineering Manager & Ex-CTO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">JL</a>
+      <ul class="nav-links">
+        <li><a href="#about" data-en="About" data-zh="關於我">About</a></li>
+        <li><a href="#experience" data-en="Experience" data-zh="工作經歷">Experience</a></li>
+        <li><a href="#education" data-en="Education" data-zh="學歷">Education</a></li>
+        <li><a href="#talks" data-en="Talks" data-zh="演講">Talks</a></li>
+        <li><a href="#competitions" data-en="Honors" data-zh="榮譽">Honors</a></li>
+        <li><a href="#courses" data-en="Courses" data-zh="線上課程">Courses</a></li>
+        <li><a href="#teaching" data-en="Teaching" data-zh="教學經驗">Teaching</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+        <span class="lang-text">中文</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-avatar">
+        <img src="icon/John.webp" alt="John Liu" class="avatar-img" />
+      </div>
+      <h1 class="hero-name">
+        <span class="name-line">John Liu</span>
+      </h1>
+      <p class="hero-title" data-en="Engineering Manager @ Netskope | Ex-CTO" data-zh="Netskope 工程經理 | 前新創技術長">Engineering Manager @ Netskope | Ex-CTO</p>
+      <p class="hero-tagline" data-en="Leading diverse engineering teams to build scalable cloud security products.&lt;br /&gt;Passionate about technical leadership, system architecture, and education." data-zh="帶領跨國工程團隊打造可擴展的雲端安全產品。&lt;br /&gt;熱衷於技術領導、系統架構與教育傳承。">
+        Leading diverse engineering teams to build scalable cloud security products.<br />
+        Passionate about technical leadership, system architecture, and education.
+      </p>
+      <div class="hero-socials">
+        <a href="mailto:johnliutw@hotmail.com" class="social-btn" id="social-email" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+          Email
+        </a>
+        <a href="https://medium.com/@johnliutw" target="_blank" rel="noopener noreferrer" class="social-btn"
+          id="social-medium" aria-label="Medium">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z" />
+          </svg>
+          Medium
+        </a>
+        <a href="https://www.linkedin.com/in/johnliutaiwan/" target="_blank" rel="noopener noreferrer"
+          class="social-btn" id="social-linkedin" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+          LinkedIn
+        </a>
+        <a href="https://www.facebook.com/johnliu.software.thinking" target="_blank" rel="noopener noreferrer"
+          class="social-btn" id="social-facebook" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+          </svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span data-en="Scroll" data-zh="向下滑動">Scroll</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="About Me" data-zh="關於我">About Me</span>
+        <h2 class="section-title"><span data-en="Leadership, " data-zh="領導力、">Leadership, </span><span class="accent" data-en="Code" data-zh="程式碼">Code</span><span data-en=" &amp; " data-zh="與"> &amp; </span><span class="accent" data-en="Community" data-zh="社群">Community</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-en="As a co-founder of an asset management startup, I led the team to build our B2C and B2B products from 0 to 1. These products help customers manage assets more effectively and focus more on improving their business performance." data-zh="作為資產管理新創公司的共同創辦人，我帶領團隊從 0 到 1 打造 B2C 和 B2B 產品。這些產品幫助客戶更有效地管理資產，專注於提升業務績效。">
+            As a co-founder of an asset management startup, I led the team to build our B2C and B2B products from 0 to 1.
+            These products help customers manage assets more effectively and focus more on improving their business performance.
+          </p>
+          <p data-en="As an full-stack engineer and technical leader, I built several production services in PHP, Python, JavaScript, and Ruby. In the meantime, I am experienced in GCP, Azure, and Kubernetes. In order to ensure product quality, I established the process of CI/CD, deployment, and alerting of our products." data-zh="作為 Full Stack 工程師與技術主管，我使用 PHP、Python、JavaScript 和 Ruby 建置了多個正式服務。同時，我熟悉 GCP、Azure 和 Kubernetes。為確保產品品質，我建立了完整的 CI/CD、部署和告警流程。">
+            As an experienced web full-stack engineer and technical leader, I built several production services in PHP, Python, JavaScript, and Ruby.
+            In the meantime, I am experienced in GCP, Azure, and Kubernetes. In order to ensure product quality, I established the process of CI/CD, deployment, and alerting of our products.
+          </p>
+          <p data-en="As a tech speaker, I engage in several conferences such as COSCUP, MOPCON, and Agile Summit. Otherwise, I helped organizations such as AppWorks School, HiSKIO, and NTC.im to mentor junior engineers to grow." data-zh="作為技術講者，我參與 COSCUP、MOPCON、Agile Summit 等多場技術研討會。此外，我也協助 AppWorks School、HiSKIO、NTC.im 等機構培育工程師成長。">
+            As a tech speaker, I engage in several conferences such as COSCUP, MOPCON, and Agile Summit. Otherwise, I helped organizations such as AppWorks School, HiSKIO, and NTC.im to mentor engineers to grow.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="Professional Journey" data-zh="職業歷程">Professional Journey</span>
+        <h2 class="section-title"><span data-en="Work " data-zh="工作">Work </span><span class="accent" data-en="Experience" data-zh="經歷">Experience</span></h2>
+      </div>
+      <div class="timeline" id="experience-timeline">
+
+        <!-- Netskope - LinkedIn Style Combined -->
+        <div class="timeline-item company-group" data-index="0">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header company-header">
+              <div>
+                <h3 class="timeline-company-name">Netskope</h3>
+              </div>
+            </div>
+            
+            <!-- Role 1: Engineering Manager -->
+            <div class="role-item">
+              <div class="role-header">
+                <h4 class="role-title" data-en="Engineering Manager" data-zh="工程經理">Engineering Manager</h4>
+                <span class="role-period">Sep 2024 – Present</span>
+              </div>
+              <ul class="role-highlights">
+                <li data-en="Led Web UI for Steering, Enterprise Browser, SWG, RBI, IPS, and Data Lineage products across Taiwan, US, and India teams, delivering &lt;strong&gt;55+ projects&lt;/strong&gt; on schedule" data-zh="主導 Steering、Enterprise Browser、SWG、RBI、IPS 和 Data Lineage 產品的 Web UI，跨台灣、美國和印度團隊，準時交付 &lt;strong&gt;55+ 專案&lt;/strong&gt;">Led Web UI for Steering, Enterprise Browser, SWG, RBI, IPS, and Data Lineage products across Taiwan, US, and India teams, delivering <strong>55+ projects</strong> on schedule</li>
+                <li data-en="Spearheaded transition from &lt;strong&gt;Monolithic to Micro-frontend architecture&lt;/strong&gt; to boost development velocity" data-zh="主導從 &lt;strong&gt;Monolithic 轉型至 Micro-frontend 架構&lt;/strong&gt;，提升開發效率">Spearheaded transition from <strong>Monolithic to Micro-frontend architecture</strong> to boost development velocity</li>
+                <li data-en="Recruited &lt;strong&gt;12 engineers&lt;/strong&gt; within a year and established mentorship system" data-zh="一年內招募 &lt;strong&gt;12 位工程師&lt;/strong&gt;，並建立導師制度">Recruited <strong>12 engineers</strong> within a year and established mentorship system</li>
+                <li data-en="Hosted bi-weekly technical sharing sessions (&lt;strong&gt;17+ Tech Talks&lt;/strong&gt;)" data-zh="主持雙週技術分享會（&lt;strong&gt;17+ 場 Tech Talks&lt;/strong&gt;）">Hosted bi-weekly technical sharing sessions (<strong>17+ Tech Talks</strong>)</li>
+                <li data-en="Co-organized 2024/25 Global Hackathons, achieving &lt;strong&gt;60% increase&lt;/strong&gt; in local registration" data-zh="協辦 2024/25 全球 Hackathon，在地報名人數成長 &lt;strong&gt;60%&lt;/strong&gt;">Co-organized 2024/25 Global Hackathons, achieving <strong>60% increase</strong> in local registration</li>
+                <li data-en="2025 Hackathon solo winner in &quot;Customer Champion&quot; category" data-zh="2025 Hackathon 以個人之力獲得「Customer Champion」獎項">2025 Hackathon solo winner in "Customer Champion" category</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">Engineering Management</span>
+                <span class="tag">Micro-frontend</span>
+                <span class="tag">Team Building</span>
+              </div>
+            </div>
+
+            <!-- Role 2: Senior Full Stack Engineer -->
+            <div class="role-item">
+              <div class="role-header">
+                <h4 class="role-title" data-en="Senior Full Stack Engineer" data-zh="資深全端工程師">Senior Full Stack Engineer</h4>
+                <span class="role-period">Apr 2024 – Aug 2024</span>
+              </div>
+              <ul class="role-highlights">
+                <li data-en="Led RBAC system development, unit testing infrastructure, and PHP version upgrade (7.4 → 8.1)" data-zh="主導 RBAC 系統開發、單元測試基礎建設，以及 PHP 版本升級（7.4 → 8.1）">Led RBAC system development, unit testing infrastructure, and PHP version upgrade (7.4 → 8.1)</li>
+                <li data-en="Raised automated test coverage from &lt;strong&gt;35% to 90%&lt;/strong&gt; and reduced bugs by &lt;strong&gt;70%&lt;/strong&gt;" data-zh="將自動化測試覆蓋率從 &lt;strong&gt;35% 提升至 90%&lt;/strong&gt;，Bug 數量減少 &lt;strong&gt;70%&lt;/strong&gt;">Raised automated test coverage from <strong>35% to 90%</strong> and reduced bugs by <strong>70%</strong></li>
+                <li data-en="Led Contract Testing project: built infrastructure and completed &lt;strong&gt;17+ services and 400 API contracts&lt;/strong&gt;" data-zh="主導 Contract Testing 專案：建置基礎設施並完成 &lt;strong&gt;17+ 服務、400 個 API contracts&lt;/strong&gt;">Led Contract Testing project: built infrastructure and completed <strong>17+ services and 400 API contracts</strong></li>
+                <li data-en="Reduced QA test environment setup time from &lt;strong&gt;3 days to 2 hours&lt;/strong&gt;" data-zh="將 QA 測試環境建置時間從 &lt;strong&gt;3 天縮短至 2 小時&lt;/strong&gt;">Reduced QA test environment setup time from <strong>3 days to 2 hours</strong></li>
+                <li data-en="Participated in company hackathon - ranked &lt;strong&gt;6th of 42 global projects&lt;/strong&gt;" data-zh="參與公司 Hackathon，於全球 42 個專案中排名 &lt;strong&gt;第 6 名&lt;/strong&gt;">Participated in company hackathon - ranked <strong>6th of 42 global projects</strong></li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">PHP 8.1</span>
+                <span class="tag">Contract Testing</span>
+                <span class="tag">System Design</span>
+              </div>
+            </div>
+
+            <!-- Role 3: Full Stack Engineer -->
+            <div class="role-item">
+              <div class="role-header">
+                <h4 class="role-title" data-en="Full Stack Engineer" data-zh="全端工程師">Full Stack Engineer</h4>
+                <span class="role-period">Feb 2022 – Mar 2024</span>
+              </div>
+              <ul class="role-highlights">
+                <li data-en="Full Stack Engineer contributing to web development for cloud security products" data-zh="擔任 Full Stack 工程師，參與雲端安全產品的網頁開發">Full Stack Engineer contributing to web development for cloud security products</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">Full Stack</span>
+                <span class="tag">Web Development</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-index="1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role" data-en="Co-founder &amp; CTO" data-zh="共同創辦人暨技術長">Co-founder & CTO</h3>
+                <p class="timeline-company">Bili Digital</p>
+              </div>
+              <span class="timeline-period">Jul 2019 – Dec 2021</span>
+            </div>
+            <ul class="role-highlights">
+              <li data-en="Built property management product with &lt;strong&gt;200+ paying users&lt;/strong&gt; and &lt;strong&gt;10,000+ app users&lt;/strong&gt;" data-zh="建置資產管理產品，擁有 &lt;strong&gt;200+ 付費用戶&lt;/strong&gt;和 &lt;strong&gt;10,000+ App 用戶&lt;/strong&gt;">Built property management product with <strong>200+ paying users</strong> and <strong>10,000+ app users</strong></li>
+              <li data-en="Managed DevOps on GCP: &lt;strong&gt;50+ daily deployments&lt;/strong&gt;, pre-deployment within 10 minutes, service recovery in under 3 minutes, error rate below 1%" data-zh="在 GCP 上管理 DevOps：&lt;strong&gt;每日 50+ 次部署&lt;/strong&gt;，部署前置時間 10 分鐘內，服務恢復時間 3 分鐘內，錯誤率低於 1%">Managed DevOps on GCP: <strong>50+ daily deployments</strong>, pre-deployment within 10 minutes, service recovery in under 3 minutes, error rate below 1%</li>
+              <li data-en="Led software team of &lt;strong&gt;10+ people&lt;/strong&gt; including PMs, Mobile Developers, Full-stack Web developers, and QA" data-zh="帶領 &lt;strong&gt;10+ 人&lt;/strong&gt;軟體團隊，包含 PM、Mobile 開發、Full-stack Web 開發和 QA">Led software team of <strong>10+ people</strong> including PMs, Mobile Developers, Full-stack Web developers, and QA</li>
+              <li data-en="Set up project management with Slack, Asana, Jira, and Line" data-zh="建立專案管理流程，使用 Slack、Asana、Jira 和 Line">Set up project management with Slack, Asana, Jira, and Line</li>
+              <li data-en="Conducted 1-1 meetings, technical roadmap meetings, OKR, and PIP" data-zh="進行 1-1 會議、技術路線圖會議、OKR 和 PIP">Conducted 1-1 meetings, technical roadmap meetings, OKR, and PIP</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">GCP</span>
+              <span class="tag">DevOps</span>
+              <span class="tag">Startup Leadership</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-index="2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role" data-en="Full Stack Engineer" data-zh="全端工程師">Full Stack Engineer</h3>
+                <p class="timeline-company">Asia Money Fintech Company</p>
+              </div>
+              <span class="timeline-period">Jul 2018 – Jun 2019</span>
+            </div>
+            <ul class="role-highlights">
+              <li data-en="Developed pponline intelligent mediation mechanism, report system, Excel management service, I18n" data-zh="開發 pponline 智慧媒合機制、報表系統、Excel 管理服務、I18n">Developed pponline intelligent mediation mechanism, report system, Excel management service, I18n</li>
+              <li data-en="Built cascading bank &amp; invoice API, frontend page development and UX design" data-zh="建置串接銀行與發票 API、前端頁面開發與 UX 設計">Built cascading bank & invoice API, frontend page development and UX design</li>
+              <li data-en="Managed company internal CRM system and Philippines virtual account payment project" data-zh="管理公司內部 CRM 系統及菲律賓虛擬帳戶金流專案">Managed company internal CRM system and Philippines virtual account payment project</li>
+              <li data-en="Led and managed outsourcing team of &lt;strong&gt;5 members&lt;/strong&gt;" data-zh="帶領並管理 &lt;strong&gt;5 人&lt;/strong&gt;外包團隊">Led and managed outsourcing team of <strong>5 members</strong></li>
+              <li data-en="Developed crawler programs for data capturing and data analysis" data-zh="開發爬蟲程式進行資料擷取與分析">Developed crawler programs for data capturing and data analysis</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">Fintech</span>
+              <span class="tag">Full Stack</span>
+              <span class="tag">System Integration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-index="3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role" data-en="Full Stack Engineer" data-zh="全端工程師">Full Stack Engineer</h3>
+                <p class="timeline-company">Deila</p>
+              </div>
+              <span class="timeline-period">Apr 2017 – Mar 2018</span>
+            </div>
+            <ul class="role-highlights">
+              <li data-en="Scrum Master and Developer Lead in Agile development, built technical team culture" data-zh="擔任 Scrum Master 與開發主管，採用敏捷開發並建立技術團隊文化">Scrum Master and Developer Lead in Agile development, built technical team culture</li>
+              <li data-en="Led development team of &lt;strong&gt;5 members&lt;/strong&gt;" data-zh="帶領 &lt;strong&gt;5 人&lt;/strong&gt;開發團隊">Led development team of <strong>5 members</strong></li>
+              <li data-en="Enhanced version update speed from &lt;strong&gt;once a month to once every two weeks&lt;/strong&gt;" data-zh="將版本更新速度從&lt;strong&gt;每月一次提升至每兩週一次&lt;/strong&gt;">Enhanced version update speed from <strong>once a month to once every two weeks</strong></li>
+              <li data-en="Managed Azure cloud server environment and Version control (Git on Visual Studio Team Service)" data-zh="管理 Azure 雲端伺服器環境與版本控制（Git on Visual Studio Team Service）">Managed Azure cloud server environment and Version control (Git on Visual Studio Team Service)</li>
+              <li data-en="Technical representative, worked with Microsoft and other partners" data-zh="擔任技術代表，與 Microsoft 及其他合作夥伴協作">Technical representative, worked with Microsoft and other partners</li>
+              <li data-en="Recruited developers and built training program" data-zh="招募開發人員並建立培訓計畫">Recruited developers and built training program</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">Azure</span>
+              <span class="tag">Scrum Master</span>
+              <span class="tag">C#</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-index="4">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role" data-en="IT Specialist" data-zh="IT 專員">IT Specialist</h3>
+                <p class="timeline-company" data-en="Manila Economic and Cultural Office" data-zh="馬尼拉經濟文化辦事處">Manila Economic and Cultural Office</p>
+              </div>
+              <span class="timeline-period">Oct 2015 – Mar 2017</span>
+            </div>
+            <ul class="role-highlights">
+              <li data-en="Maintained old website (ASP.NET with C#) and new website (PHP) independently" data-zh="獨立維護舊網站（ASP.NET with C#）與新網站（PHP）">Maintained old website (ASP.NET with C#) and new website (PHP) independently</li>
+              <li data-en="Responsible for new website rebuilding project with outsourcing company for &lt;strong&gt;6 months&lt;/strong&gt;" data-zh="負責與外包公司合作的新網站重建專案，為期 &lt;strong&gt;6 個月&lt;/strong&gt;">Responsible for new website rebuilding project with outsourcing company for <strong>6 months</strong></li>
+              <li data-en="Fixed hardware issues and interviewed &lt;strong&gt;3 IT candidates&lt;/strong&gt;" data-zh="處理硬體問題並面試 &lt;strong&gt;3 位 IT 應徵者&lt;/strong&gt;">Fixed hardware issues and interviewed <strong>3 IT candidates</strong></li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">ASP.NET</span>
+              <span class="tag">PHP</span>
+              <span class="tag">IT Support</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="Academic Background" data-zh="學術背景">Academic Background</span>
+        <h2 class="section-title"><span data-en="My " data-zh="我的">My </span><span class="accent" data-en="Education" data-zh="學歷">Education</span></h2>
+      </div>
+      <div class="edu-grid" id="education-grid">
+
+        <div class="edu-card">
+          <div class="edu-icon">
+            <img src="icon/cu.png" alt="CU Boulder" style="width: 60px; height: auto;" />
+          </div>
+          <div class="edu-body">
+            <h3 class="edu-degree" data-en="Master's degree, Engineering Management" data-zh="碩士學位，工程管理">Master's degree, Engineering Management</h3>
+            <p class="edu-school" data-en="University of Colorado Boulder" data-zh="科羅拉多大學波德分校">University of Colorado Boulder</p>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-icon">
+            <img src="icon/nccu.svg" alt="NCCU" style="width: 50px; height: auto;" />
+          </div>
+          <div class="edu-body">
+            <h3 class="edu-degree" data-en="Bachelor's degree, Management of Information System" data-zh="學士學位，資訊管理學系">Bachelor's degree, Management of Information System</h3>
+            <p class="edu-school" data-en="National Cheng Chi University" data-zh="國立政治大學">National Cheng Chi University</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Talks Section -->
+  <section id="talks" class="section talks-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="Public Speaking" data-zh="公開演講">Public Speaking</span>
+        <h2 class="section-title"><span data-en="Conference " data-zh="技術研討會">Conference </span><span class="accent" data-en="Talks" data-zh="演講">Talks</span></h2>
+      </div>
+      <div class="talks-list" id="talks-list">
+
+        <!-- 2024 -->
+        <div class="talks-year-group">
+          <h3 class="talks-year-title">2024</h3>
+          <ul class="talks-items">
+            <li class="talk-item">
+              <span class="talk-event-badge">HelloWorld Conf</span>
+              <a href="https://hwdc.ithome.com.tw/2024/session-page/3224" target="_blank" class="talk-link">Contract Testing with Pact</a>
+            </li>
+            <li class="talk-item">
+              <span class="talk-event-badge">HelloWorld Conf</span>
+              <a href="https://hwdc.ithome.com.tw/2024/session-page/3202" target="_blank" class="talk-link" data-en="Daily life in big tech" data-zh="大型科技公司的日常">Daily life in big tech</a>
+            </li>
+            <li class="talk-item">
+              <span class="talk-event-badge">JSDC</span>
+              <a href="https://hackmd.io/@JSDC2024/2024/%2F2VnLlZrtSk-eZLJcmCkMfA" target="_blank" class="talk-link">From Frontend to Micro-Frontend</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 2023 -->
+        <div class="talks-year-group">
+          <h3 class="talks-year-title">2023</h3>
+          <ul class="talks-items">
+            <li class="talk-item">
+              <span class="talk-event-badge">COSCUP</span>
+              <a href="https://coscup.org/2023/zh-TW/session/WLP38V" target="_blank" class="talk-link" data-en="Laravel mock framework - Mockery source code browsing" data-zh="Laravel Mock 框架 - Mockery 原始碼導讀">Laravel mock framework - Mockery source code browsing</a>
+            </li>
+            <li class="talk-item">
+              <span class="talk-event-badge">DevOpsDays</span>
+              <a href="https://devopsdays.tw/2023/session-page/2282" target="_blank" class="talk-link" data-en="Automatically control PR quality through GitHub Checks" data-zh="透過 GitHub Checks 自動控管 PR 品質">Automatically control PR quality through GitHub Checks</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 2022 -->
+        <div class="talks-year-group">
+          <h3 class="talks-year-title">2022</h3>
+          <ul class="talks-items">
+            <li class="talk-item">
+              <span class="talk-event-badge">COSCUP</span>
+              <a href="https://coscup.org/2022/en/session/ZHTKWZ" target="_blank" class="talk-link" data-en="Laravel e-commerce source code scan - Bagisto" data-zh="Laravel 電商原始碼掃描 - Bagisto">Laravel e-commerce source code scan - Bagisto</a>
+            </li>
+            <li class="talk-item">
+              <span class="talk-event-badge">MOPCON</span>
+              <a href="https://mopcon.org/2022/speaker/195" target="_blank" class="talk-link" data-en="Modern Web Framework performance optimization" data-zh="現代 Web 框架效能優化">Modern Web Framework performance optimization</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 2021 -->
+        <div class="talks-year-group">
+          <h3 class="talks-year-title">2021</h3>
+          <ul class="talks-items">
+            <li class="talk-item">
+              <span class="talk-event-badge">COSCUP</span>
+              <a href="https://coscup.org/2021/zh-TW/session/DZMCHW" target="_blank" class="talk-link">MySQL 8 with Window function</a>
+            </li>
+            <li class="talk-item">
+              <span class="talk-event-badge">COSCUP & PHP Day</span>
+              <a href="https://coscup.org/2021/zh-TW/session/3KAF9R" target="_blank" class="talk-link" data-en="Laravel excel package source code analyze" data-zh="Laravel Excel 套件原始碼分析">Laravel excel package source code analyze</a>
+            </li>
+            <li class="talk-item">
+              <span class="talk-event-badge">Agile Summit</span>
+              <a href="https://agile.ithome.com.tw/2021/session-page/321" target="_blank" class="talk-link" data-en="Traditional industry digital transformation" data-zh="傳統產業數位轉型">Traditional industry digital transformation</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 2020 -->
+        <div class="talks-year-group">
+          <h3 class="talks-year-title">2020</h3>
+          <ul class="talks-items">
+            <li class="talk-item">
+              <span class="talk-event-badge">Modern Web</span>
+              <a href="https://modernweb.tw/2020/index.html#info7483" target="_blank" class="talk-link" data-en="API Authentication and Authorization" data-zh="API 認證與授權">API Authentication and Authorization</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Competitions Section -->
+  <section id="competitions" class="section competitions-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="Achievements" data-zh="成就">Achievements</span>
+        <h2 class="section-title"><span data-en="Honors &amp; " data-zh="榮譽與">Honors &amp; </span><span class="accent" data-en="Awards" data-zh="獎項">Awards</span></h2>
+      </div>
+      <div class="awards-list" id="awards-list">
+
+        <div class="award-item">
+          <div class="award-rank gold">🥇</div>
+          <div class="award-body">
+            <h3 class="award-title">Customer Champion Award — Netskope Hackathon</h3>
+            <p class="award-org">2025 · Top 4/123</p>
+            <p class="award-desc" data-en="Developed a Gemini-powered AI sales tool as a solo contributor using Cursor in a spec-driven workflow. Designed to bridge the &quot;last mile&quot; of sales and effectively boost NRR." data-zh="以個人之力使用 Cursor 開發 Gemini AI 驅動的銷售工具，採用規格驅動開發流程。旨在解決銷售「最後一哩」問題，有效提升 NRR。">Developed a Gemini-powered AI sales tool as a solo contributor using Cursor in a
+              spec-driven workflow. Designed to bridge the "last mile" of sales and effectively boost NRR.</p>
+          </div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-rank silver">🥈</div>
+          <div class="award-body">
+            <h3 class="award-title">Finalist (New Horizons) — Netskope Hackathon</h3>
+            <p class="award-org">2024 · Top 13/101</p>
+            <p class="award-desc" data-en="Developed a Rust-based cross-platform desktop application as a solo contributor, addressing legacy UI issues and high cross-platform development costs." data-zh="以個人之力開發基於 Rust 的跨平台桌面應用程式，解決舊有 UI 問題及高昂的跨平台開發成本。">Developed a Rust-based cross-platform desktop application as a solo contributor,
+              addressing legacy UI issues and high cross-platform development costs.</p>
+          </div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-rank bronze">🥉</div>
+          <div class="award-body">
+            <h3 class="award-title">Finalist (Fixing the Foundations) — Netskope Hackathon</h3>
+            <p class="award-org">2023 · Top 14/66</p>
+            <p class="award-desc" data-en="Collaborated with 3 engineers to build a dedicated Web UI feature-branch-based test cloud using idle corporate resources, resolving hardware resource conflicts." data-zh="與 3 位工程師合作，利用公司閒置資源建置專屬的 Web UI feature-branch 測試雲，解決硬體資源衝突問題。">Collaborated with 3 engineers to build a dedicated Web UI feature-branch-based test
+              cloud using idle corporate resources, resolving hardware resource conflicts.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Online Courses Section -->
+  <section id="courses" class="section courses-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="Online Learning" data-zh="線上學習">Online Learning</span>
+        <h2 class="section-title"><span data-en="Online " data-zh="線上">Online </span><span class="accent" data-en="Courses" data-zh="課程">Courses</span></h2>
+      </div>
+      <div class="courses-grid" id="courses-grid">
+
+        <div class="course-card">
+          <div class="course-platform hahow">HiSKIO</div>
+          <h3 class="course-title" data-en="Third-party payment application" data-zh="第三方支付實戰">Third-party payment application</h3>
+          <p class="course-desc" data-en="Financial concepts, Invoice/Credit card/Bank applications, SDK integration, and Line Pay." data-zh="金流概念、發票/信用卡/銀行串接、SDK 整合及 Line Pay。">Financial concepts, Invoice/Credit card/Bank applications, SDK integration, and Line
+            Pay.</p>
+          <div class="course-tags">
+            <span class="tag">Finance</span>
+            <span class="tag">SDK</span>
+            <span class="tag">Payment</span>
+          </div>
+          <br />
+          <a href="https://hiskio.com/courses/377#lectures" target="_blank" class="course-link" data-en="View Course →" data-zh="查看課程 →">View Course →</a>
+        </div>
+
+        <div class="course-card">
+          <div class="course-platform hahow">HiSKIO</div>
+          <h3 class="course-title" data-en="Restful API Development" data-zh="Restful API 開發實戰">Restful API Development</h3>
+          <p class="course-desc" data-en="HTTP concepts, Python/Flask/SQLAlchemy, JWT, Google/Facebook Auth, WebSocket, and Swagger." data-zh="HTTP 概念、Python/Flask/SQLAlchemy、JWT、Google/Facebook 登入、WebSocket 及 Swagger。">HTTP concepts, Python/Flask/SQLAlchemy, JWT, Google/Facebook Auth, WebSocket, and
+            Swagger.</p>
+          <div class="course-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">REST API</span>
+          </div>
+          <br />
+          <a href="https://hiskio.com/courses/291/about" target="_blank" class="course-link" data-en="View Course →" data-zh="查看課程 →">View Course →</a>
+        </div>
+
+        <div class="course-card">
+          <div class="course-platform hahow">HiSKIO</div>
+          <h3 class="course-title" data-en="Marketing with Python" data-zh="Python 行銷應用">Marketing with Python</h3>
+          <p class="course-desc" data-en="Web crawling (PTT, News, FB), SQL basics, A/B Testing, and Chatbot application." data-zh="網路爬蟲（PTT、新聞、FB）、SQL 基礎、A/B Testing 及 Chatbot 應用。">Web crawling (PTT, News, FB), SQL basics, A/B Testing, and Chatbot application.</p>
+          <div class="course-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Crawling</span>
+            <span class="tag">Chatbot</span>
+          </div>
+          <br />
+          <a href="https://hiskio.com/courses/287/about" target="_blank" class="course-link" data-en="View Course →" data-zh="查看課程 →">View Course →</a>
+        </div>
+
+        <div class="course-card">
+          <div class="course-platform hahow">HiSKIO</div>
+          <h3 class="course-title" data-en="Laravel Master" data-zh="Laravel 大師班">Laravel Master</h3>
+          <p class="course-desc" data-en="Comprehensive Laravel guide: PHP basics, ORM, Auth, Shopping Cart, Redis, Queue, DevOps, and more." data-zh="完整 Laravel 指南：PHP 基礎、ORM、Auth、購物車、Redis、Queue、DevOps 等。">Comprehensive Laravel guide: PHP basics, ORM, Auth, Shopping Cart, Redis, Queue,
+            DevOps, and more.</p>
+          <div class="course-tags">
+            <span class="tag">Laravel</span>
+            <span class="tag">PHP</span>
+            <span class="tag">DevOps</span>
+          </div>
+          <br />
+          <a href="#" class="course-link" data-en="View Course →" data-zh="查看課程 →">View Course →</a>
+        </div>
+
+        <div class="course-card">
+          <div class="course-platform hahow">HiSKIO</div>
+          <h3 class="course-title" data-en="Database Management" data-zh="資料庫管理">Database Management</h3>
+          <p class="course-desc" data-en="SQL + Python, ACID, Transactions, Security, Backup, Logging, and System Design." data-zh="SQL + Python、ACID、Transaction、安全性、備份、Logging 及系統設計。">SQL + Python, ACID, Transactions, Security, Backup, Logging, and System Design.</p>
+          <div class="course-tags">
+            <span class="tag">SQL</span>
+            <span class="tag">Database</span>
+            <span class="tag">System Design</span>
+          </div>
+          <br />
+          <a href="#" class="course-link" data-en="View Course →" data-zh="查看課程 →">View Course →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaching Experience Section -->
+  <section id="teaching" class="section teaching-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="Education Experience" data-zh="教育經驗">Education Experience</span>
+        <h2 class="section-title"><span data-en="Teaching " data-zh="教學">Teaching </span><span class="accent" data-en="Experience" data-zh="經驗">Experience</span></h2>
+      </div>
+      <div class="teaching-list" id="teaching-list">
+
+        <div class="teaching-item">
+          <div class="teaching-period">2024</div>
+          <div class="teaching-body">
+            <h3 class="teaching-org">iSpan (資展國際)</h3>
+            <p class="teaching-desc" data-en="Lead instructor for JavaScript Front-end Fundamentals bootcamp." data-zh="JavaScript 前端基礎訓練營主講師。">Lead instructor for JavaScript Front-end Fundamentals bootcamp.</p>
+          </div>
+        </div>
+
+        <div class="teaching-item">
+          <div class="teaching-period">2022–2024</div>
+          <div class="teaching-body">
+            <h3 class="teaching-org">AiWorks</h3>
+            <p class="teaching-desc" data-en="Planned and conducted Agile, Code Review, Unit Testing, and QA workshops for CS undergrad/graduate students. Coached 3 junior instructors and taught &quot;Introduction to Software for Non-Engineers&quot;." data-zh="規劃並執行 Agile、Code Review、Unit Testing 及 QA 工作坊，面向資訊相關科系大學生及研究生。培訓 3 位初階講師，並教授「非工程師的軟體入門」課程。">Planned and conducted Agile, Code Review, Unit Testing, and QA workshops for CS undergrad/graduate students. Coached 3 junior instructors and taught "Introduction to Software for Non-Engineers".</p>
+          </div>
+        </div>
+
+        <div class="teaching-item">
+          <div class="teaching-period">2022</div>
+          <div class="teaching-body">
+            <h3 class="teaching-org">LeetCode</h3>
+            <p class="teaching-desc" data-en="Course creator for &quot;Introduction to Databases&quot; online tutorials." data-zh="「資料庫入門」線上教學課程製作人。">Course creator for "Introduction to Databases" online tutorials.</p>
+          </div>
+        </div>
+
+        <div class="teaching-item">
+          <div class="teaching-period">2018</div>
+          <div class="teaching-body">
+            <h3 class="teaching-org">SkillShop</h3>
+            <p class="teaching-desc" data-en="Visiting lecturer at National Taipei University for Data Visualization series." data-zh="於國立臺北大學擔任資料視覺化系列課程客座講師。">Visiting lecturer at National Taipei University for Data Visualization series.</p>
+          </div>
+        </div>
+
+        <div class="teaching-item">
+          <div class="teaching-period">2018</div>
+          <div class="teaching-body">
+            <h3 class="teaching-org" data-en="Gjun (Giant Computer)" data-zh="巨匠電腦">Gjun (Giant Computer)</h3>
+            <p class="teaching-desc" data-en="Online instructor for Front-end Design live-streaming series." data-zh="前端設計直播系列課程線上講師。">Online instructor for Front-end Design live-streaming series.</p>
+          </div>
+        </div>
+
+        <div class="teaching-item">
+          <div class="teaching-period">2017–2020</div>
+          <div class="teaching-body">
+            <h3 class="teaching-org">NTC.im</h3>
+            <p class="teaching-desc" data-en="Course instructor for Front-end Design, Data Visualization, and API Development series." data-zh="前端設計、資料視覺化及 API 開發系列課程講師。">Course instructor for Front-end Design, Data Visualization, and API Development series.</p>
+          </div>
+        </div>
+
+        <div class="teaching-item">
+          <div class="teaching-period">2016–2020</div>
+          <div class="teaching-body">
+            <h3 class="teaching-org" data-en="Orange Apple" data-zh="橘子蘋果">Orange Apple</h3>
+            <p class="teaching-desc" data-en="Coding instructor for kids (Scratch, JavaScript, Minecraft, and AI)." data-zh="兒童程式教學講師（Scratch、JavaScript、Minecraft 及 AI）。">Coding instructor for kids (Scratch, JavaScript, Minecraft, and AI).</p>
+          </div>
+        </div>
+
+        <div class="teaching-item">
+          <div class="teaching-period">2016–2019</div>
+          <div class="teaching-body">
+            <h3 class="teaching-org" data-en="Private Tutor" data-zh="私人家教">Private Tutor</h3>
+            <p class="teaching-desc" data-en="Python interview preparation, NBA data modeling/thesis analysis, mobile game character sentiment analysis, and personal website development." data-zh="Python 面試準備、NBA 數據建模/論文分析、手遊角色情感分析及個人網站開發。">Python interview preparation, NBA data modeling/thesis analysis, mobile game character sentiment analysis, and personal website development.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© 2025 John Liu. <span data-en="Crafted with ❤️ and lots of ☕" data-zh="以 ❤️ 與大量 ☕ 精心打造">Crafted with ❤️ and lots of ☕</span></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
