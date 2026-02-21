@@ -1,0 +1,59 @@
+
+#Social Media
+https://www.linkedin.com/in/johnliutaiwan/
+https://medium.com/@johnliutw
+https://www.facebook.com/johnliu.software.thinking
+
+
+#Public speaking
+- 2020
+1. Modern Web, API Authentication and Authorization
+https://modernweb.tw/2020/index.html#info7483
+
+
+- 2021
+1. Coscup, MySQL 8 with Window function
+https://coscup.org/2021/zh-TW/session/DZMCHW
+2. Coscup & PHP Day, Laravel excel package source code analyze
+https://coscup.org/2021/zh-TW/session/3KAF9R
+3. Agile Summit, Traditional industry digital transformation case sharing
+https://agile.ithome.com.tw/2021/session-page/321
+4. Hiskio, Backend expert forum
+https://hiskio.com/events/backend-expert
+
+
+
+- 2022
+1. Coscup, Laravel e-commerce source code scan - Laravel Bagisto
+https://coscup.org/2022/en/session/ZHTKWZ
+2. MOPCON, Modern Web Framework performance optimization
+https://mopcon.org/2022/speaker/195
+
+- 2023
+1. Coscup & Modern Web, Laravel mock framework - Mockery source code browsing
+https://coscup.org/2023/zh-TW/session/WLP38V
+2. DevOpsDay, How we automatically control PR quality through GitHub Checks
+https://devopsdays.tw/2023/session-page/2282
+
+- 2024
+1. HelloWorld Conf, Contract Testing with Pact
+https://hwdc.ithome.com.tw/2024/session-page/3224
+2. HelloWorld Conf, Daily life in big tech
+https://hwdc.ithome.com.tw/2024/session-page/3202
+3. JSDC, From Frontend to Micro-Frontend 
+https://hackmd.io/@JSDC2024/2024/%2F2VnLlZrtSk-eZLJcmCkMfA?fbclid=IwY2xjawQCbVtleHRuA2FlbQIxMABicmlkETJDYTR3YVA4RUJ3aWE5T0RGc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvuygR3NMgS6xwEtSD4tuq0Wz9sejjfY1Qy-M1c2ifcxyh4YR6hdSEoNBQtE_aem_K3xJm9_a0tP1_G3gm0pd6w
+
+
+
+#Honors
+- Netskope Hackathon 2023
+Finalist, "Fixing the Foundations" category, Top 14/66: 
+Collaborated with 3 engineers to build a dedicated Web UI feature-branch-based test cloud using idle corporate resources, resolving hardware resource conflicts.
+
+- Netskope Hackathon 2024
+Finalist, "New Horizons" category, Top 13/101: 
+Developed a Rust-based cross-platform desktop application as a solo contributor, addressing legacy UI issues and high cross-platform development costs.
+
+- Netskope Hackathon 2025
+Winner, "Customer Champion" Award, Top 4/123
+Developed a Gemini-powered AI sales tool as a solo contributor using Cursor in a spec-driven workflow. Designed to bridge the "last mile" of sales and effectively boost NRR.

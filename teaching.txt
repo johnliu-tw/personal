@@ -1,0 +1,85 @@
+
+#線上教學課程
+- Third-party payment application: https://hiskio.com/courses/377#lectures
+1. Financial concept
+2. Invoice application
+3. Credit card application
+4. Bank Application
+5. Third-party payment application with SDK
+6. Third-party payment application Development
+7. Line Pay payment application
+
+- Restful API: https://hiskio.com/courses/291/about
+1. HTTP Concept
+2. Client API Development with Python
+3. Restful API Development with Flask + PyMySQL + SQLAlchemy
+4. Advanced API Development including JWT, Error handling, HTTP status code
+5. API Server Build with Google Cloud Platform, Nginx, Git
+6. Thirty Part Auth login with Google, Facebook
+7. WebSocket and Swagger
+
+
+- Marketing with Python: https://hiskio.com/courses/287/about
+1. HTML, Python Basic
+2. PTT Web Crawler
+3. News Media Web Crawler
+4. Facebook Web Crawler
+5. SQL Basic
+6. A&B Testing with Python
+7. Chatbot application with Flask, Apache and GCP
+
+- Laravel Master
+1. PHP Basic
+2. Composer and Router
+3. Basic Restful API Development 
+4. SQL Basic
+5. Migration and Query Builder
+6. Eloquent ORM System
+7. Request, Validator, and Authentication
+8. Shopping Cart Development
+9. Blade template engine with HTML, CSS, and Javascript
+10. Transaction and Eager loading
+11. JSON and CSV
+12. Notification
+13. Redis
+14. Queue
+15. Observer
+16. HTTP Client
+17. File Storage
+18. Logging and Error Handling
+19. Laravel Excel Package
+20. OOP and Facade
+21. PHPUnit with the Unit test, Mock, Factory, and Integration test
+22. Artisan command and Schedular
+23. JQuery, Bootstrap, Datatable and integrate with Vue.js
+24. Server Deployment with GCP, PHP-fpm, Nginx
+25. Design pattern guide with Service, API, Repository
+26. Laravel with DevOps 
+27. Laravel with AI
+
+
+- Database Management
+1. SQL + Python Basic
+2. Foreign key
+3. ACID + Transaction
+4. Formulation
+5. SQL User privilege
+6. Backup and restore
+7. Logging
+8. View, Trigger, Function, Store procedure, and Event
+9. Database application development with Flask 
+10. InnoDB
+11. Migration and ORM
+12. Mysql variables
+13. Database System Design
+
+
+#線下教學經驗
+- 2016–2019 | Private Tutor: Python interview preparation, NBA data modeling/thesis analysis, mobile game character sentiment analysis, and personal website development.
+- 2016–2020 | Orange Apple: Coding instructor for kids (Scratch, JavaScript, Minecraft, and AI).
+- 2017–2020 | NTC.im: Course instructor for Front-end Design, Data Visualization, and API Development series.
+- 2018 | Gjun (巨匠電腦): Online instructor for Front-end Design live-streaming series.
+- 2018 | SkillShop: Course instructor at National Taipei University for Data Visualization series.
+- 2022 | LeetCode: Course creator for "Introduction to Databases" online tutorials.
+- 2022-2024 | AiWorks: Plan and conduct Agile, Code Review, Unit Testing, and QA workshop for CS related undergraduate and graduate students. Coached three junior instructors and be a Course instructor for "Introduction to Software for Non-Engineers"
+- 2024 | iSpan (資展國際): Lead instructor for JavaScript Front-end Fundamentals bootcamp.

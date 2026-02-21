@@ -1,0 +1,206 @@
+As a co-founder of an asset management startup, I led the team
+to build our B2C and B2B products from 0 to 1. These products
+help customers manage assets more effectively and focus more on
+improving their business performance.
+As an experienced web full-stack engineer and technical leader.
+I built several production services in PHP, Python, JavaScript,
+and Ruby. In the meantime, I am experienced in GCP, Azure, and
+Kubernetes. In order to ensure product quality, I established the
+process of CI/CD, deployment, and alerting of our products.
+As a tech speaker, I engage in several conferences such as Coscup,
+Mopcon, and Agile Sumit. Otherwise, I helped organizations such as
+AppWorks School, Hiskio, and NTC.im to mentor junior engineers to
+grow
+Tech stacks:
+Languages: PHP, Ruby, Python, Node.JS, JavaScript, C#
+Framework: Rails, Laravel, Codeigniter, Flask, Vue, Angular, React
+Database: MySql, MariaDB, Redis
+Cloud Providers: GCP, Azure ( VM + Storage + SQL Server, Monitor,
+Load balancer, Auto-Scaling, Logging)
+CI/CD Tools: Circle CI, Drone CI, Jenkins, Github Action
+Infrastructure Applications: Docker, Kubernetes, Nginx, Apache,
+CertBot, Supervisor, Sidekiq
+Facebook fan page( Mandarin ): https://www.facebook.com/
+johnliu.software.thinking
+Medium ( Mandarin ): https://medium.com/johnliu-%E7%9A
+%84%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B
+%E6%80%9D%E7%B6%AD
+經歷
+Page 1 of 6
+Netskope
+4 年 1 個月
+Engineering Manager
+2024 年 9 月 - Present (1 年 6 個月)
+Taiwan
+- Led Web UI for the Steering, Enterprise Browser, SWG, RBI, IPS, and Data
+Lineage products. Coordinated engineering resources across Taiwan, US, and
+India, delivering over 55 projects on schedule with quality. Project values:
+* Spearheaded the transition from Monolithic to Micro-frontend architecture to
+boost development velocity and efficiency.
+* Maximized Netskope’s footprint on client endpoints by expanding device
+compatibility and steering capabilities.
+* Enabled fine-grained security policy controls, allowing customers to configure
+precise device classification and traffic steering rules with minimal friction.
+- Managed the recruitment strategy for the Taiwan UI team. Improved interview
+efficiency to recruit 12 engineers within a year. Established a mentorship
+system and optimized the onboarding process to enhance training efficiency.
+- Directed UI development for new Enterprise Browser and Data Lineage
+products, contributing to development, technical guidance, and allocating
+resources. Built UI teams for the new AI Gateway and AI Red Team products
+and help technical direction.
+- Defined and standardized Web UI processes, including unified interview
+criteria, design doc specifications, new architecture deployment standards, and
+Hotfix release procedures.
+- Fostered an engineering culture in Taiwan by hosting bi-weekly technical
+sharing sessions (accumulating 17+ Tech Talks) and assisted with the Taiwan
+internship program.
+- Co-organized the 2024/25 Global Hackathons and led the 2025 Taiwan
+event, achieving a 60% increase in local registration with over 90%
+participation from my organization. Successfully piloted the first offline
+Hackathon in 2025, bringing together over 100 local colleagues.
+- Personally participated in Global Hackathons beyond organizing: 2023/2024
+Finalist, 2025 as the solo winner in "Customer Champion" category
+Page 2 of 6
+Senior Full Stack Engineer
+2024 年 4 月 - 2024 年 8 月 (5 個月)
+Taipei City, Taiwan
+- Led team to complete department-level projects, including the RBAC system,
+establishing unit testing infrastructure, automating integration testing, and
+upgrading PHP version (from 7.4 to 8.1).
+- Assisted in company's innovation initiatives, which included organizing
+a team (consisting of Taiwanese & Indian), participating in the company's
+internal hackathon to propose a solution for the current feature flag
+architecture issues (ranked 6th of 42 global projects, and 1st of Taiwanese
+projects), and evaluating the introduction of Github Copilot and SonarQube
+through PoC.
+- Responsible for the establishment and optimization of the test environment
+for QA, assisting QA in reducing the time required to set up the test
+environment to be usable from 3 days to 2 hours.
+- Led team to improve software quality as SME, including raising automated
+test coverage from 35% to 90% and reducing the number of bugs by 70%.
+- Represented the Web department in Contract testing projects which is
+a company level project. Led the construction of infrastructure and CICD
+processes, and led each sub-component team to develop contract cases,
+completing more than 17 services and 400 API contracts.
+- Assisted the company in developing a new product on client side, and
+completed the estimated workload of 1 Sr + 1 Staff level engineer 1 month
+ahead of schedule with 1 contractor partner
+Full Stack Engineer
+2022 年 2 月 - 2024 年 3 月 (2 年 2 個月)
+Taiwan
+Aiworks
+3 年 1 個月
+Consulting Instructor
+2023 年 8 月 - 2025 年 3 月 (1 年 8 個月)
+- Coach three junior instructors to execute and plan the campus project
+Page 3 of 6
+- Design and deliver the course: 'Introduction to Software for Non-Engineers,'
+helping professionals in Product design, Marketing, HR, and other fields
+understand software development."
+Backend Instructor
+2022 年 3 月 - 2023 年 9 月 (1 年 7 個月)
+Taipei
+- Responsible for the campus project: Tutoring computer science related
+undergraduate and graduate students to learn full-stack web technology with
+three teachers
+- Plan and conduct Agile, Code Review, Unit Testing, and QA workshop.
+- Plan and conduct trainee 1-on-1 coaching activity
+Bili Digital
+Co-founder & Chief Technical Officer
+2019 年 7 月 - 2021 年 12 月 (2 年 6 個月)
+Taipei
+- Developed and managed a property management product to address the
+accounting management challenges of the rental property industry. It boasts
+over 200 system-purchasing users.
+- Developed an App product's API Server and web scraping tools to help
+property owners manage tenants. It has over 10,000 users.
+- Managed complete software DevOps through Google Cloud Platform
+achieving up to 50 iterations daily, pre-deployment within 10 minutes, service
+recovery in under 3 minutes, and an error rate below 1%.
+- Led a software team of 10+ people, including PMs, Mobile Developers, Full-
+stack Web developers, and QA.
+- Set up project management communication channels and working
+environments, including Slack, Asana, Jira, and Line for different
+communication needs.
+- Emphasized team management and development, conducting 1-1 meetings,
+technical roadmap meetings, OKR, and PIP.
+- Engaged in weekly company strategy meetings to guarantee the technical
+side supports business needs and the company's direction
+Asia money fintech company
+Full Stack Engineer
+2018 年 7 月 - 2019 年 6 月 (1 年)
+- Responsible for pponline development and maintenance, including intelligent
+mediation mechanism, report system, Excel management service, I18n,
+cascading bank & invoice API, frontend page development and UX design.
+Page 4 of 6
+- Responsible for renticredit frontend development, maintenance, project
+management, and support backend development according to the project
+schedule.
+- Manage company internal CRM system and Philipines virtual account
+payment collaboration project.
+- Lead and manage outsourcing team ( 5 members including C#, Javascript
+developer and UI designer )
+- Plan email, SMS, robot phone marketing, Google Analytics operation
+procedure, and marketing strategy
+- Develop crawler programs for data capturing and data analysis.
+Deila
+Full Stack Engineer
+2017 年 4 月 - 2018 年 3 月 (1 年)
+- As a Scrum Master and Developer Lead in an Agile development, build the
+technical team culture and Lead development team ( 5 members )
+- Manage the project development progress and communicate with
+Requirement team, enhance version update speed from once a month to once
+two weeks.
+- Optimize development process and website structure, enhance urgent task
+update speed twice.
+- Develop website function and commercial API, detect and fix potential bugs.
+- Manage Azure cloud server environment and Version control ( Git on Visual
+Studio Team Service ).
+- Manage and Lead team members, host personal meeting, and team meeting.
+- As a technical representative, responsible work with Microsoft and other
+related partners.
+- Recruit and interview developer, build and run training program.
+Manila Economic and Cultural Office - Commercial Affairs Section
+IT Specialist
+2015 年 10 月 - 2017 年 3 月 (1 年 6 個月)
+- Maintain the old website (Asp.net with C#) and new website(PHP)
+independently.
+- Be responsible for new website rebuilding project with outsourcing company
+for 6 months
+- Fix hardware issues and interview 3 IT candidates
+Page 5 of 6
+學歷
+National Chen Chi University
+Bachelor's degree, Management of Information System
+University of Colorado Boulder
+Master's degree, Engineering Management
+
+
+
+
+Netskope-工程經理 
+2024 年 9 月 - 現職
+主導 Steering、Enterprise Browser、SWG、RBI、IPS 和 Data Lineage 產品的 Web UI 開發，管理 10+ 人，跨台灣、美國和印度團隊。
+Netskope-資深全端工程師 
+2024 年 4 月 - 2024 年 8 月
+主導 Steering, Enterprise Browser 開發工作，作為 3 人團隊的技術領導者
+Netskope-全端工程師
+2022 年 2 月 - 2024 年 3 月
+
+
+彼利數位 (en: Bili Digital) - 共同創辦人暨技術長
+2019 年 7 月 - 2021 年 12 月
+帶領 10+ 人團隊，2B 端服務台灣最大包租代管企業，開發內部核心系統 ; 2C 端經營面向一般房東的資產管理系統
+
+亞太普惠金融 (en: Asia Money Fintech Company) - 全端工程師
+2018 年 7 月 - 2019 年 7 月 
+負責金融網路產品開發以及外包團隊溝通協調工作
+
+德翼拉 (en: Deila) - 主工程師
+2018 年 7 月 - 2019 年 7 月 
+帶領 5 人團隊，負責旅遊平台產品開發工作
+
+
+
+
+
