@@ -452,26 +452,18 @@ section {
 }
 
 .about-text {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 32px;
+  max-width: 760px;
 }
 
 .about-text p {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: var(--text-secondary);
-  margin-bottom: 0;
-  padding: 24px;
-  background: var(--card-bg);
-  border-radius: 12px;
-  border: 1px solid var(--border-color);
-  transition: var(--transition);
-  line-height: 1.8;
+  line-height: 1.9;
+  margin-bottom: 20px;
 }
 
-.about-text p:hover {
-  border-color: var(--accent-color);
-  transform: translateY(-3px);
+.about-text p:last-child {
+  margin-bottom: 0;
 }
 
 .about-stats {
