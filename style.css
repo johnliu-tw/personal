@@ -1210,24 +1210,50 @@ section {
   height: 10px !important;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .hero-name {
-    font-size: 2.5rem;
+/* ==================== RESPONSIVE ==================== */
+
+/* Small laptop (≤ 1024px) */
+@media (max-width: 1024px) {
+  .section-title {
+    font-size: 2.1rem;
   }
 
+  .hero-name {
+    font-size: 3.4rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* iPad portrait / large tablet (≤ 768px) */
+@media (max-width: 768px) {
+  section {
+    padding: 72px 0;
+  }
+
+  .section-title {
+    font-size: 1.85rem;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  /* Nav */
   .nav-links {
     display: none;
-    /* Mobile menu implementation usually requires JS toggle */
     position: absolute;
-    top: 70px;
+    top: 65px;
     left: 0;
     width: 100%;
     background: var(--card-bg);
     flex-direction: column;
-    padding: 20px;
+    padding: 16px 20px;
     text-align: center;
     border-bottom: 1px solid var(--border-color);
+    gap: 4px;
   }
 
   .nav-links.active {
@@ -1247,10 +1273,35 @@ section {
     font-size: 0.8rem;
   }
 
-  .about-text {
-    grid-template-columns: 1fr;
+  /* Hero */
+  .hero-name {
+    font-size: 2.8rem;
   }
 
+  .hero-title {
+    font-size: 1.1rem;
+  }
+
+  .hero-tagline {
+    font-size: 1rem;
+  }
+
+  .avatar-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hero-socials {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* Skills */
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Timeline */
   .timeline::before {
     left: 0;
   }
@@ -1263,21 +1314,154 @@ section {
     left: -9px;
   }
 
-  .contact-title {
-    font-size: 2rem;
+  .timeline-card {
+    padding: 20px;
   }
 
-  .award-item {
+  .timeline-header {
     flex-direction: column;
-    text-align: center;
+    gap: 6px;
   }
 
+  .role-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    margin-bottom: 8px;
+  }
+
+  /* Courses */
+  .courses-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* Awards */
+  .award-item {
+    gap: 16px;
+    padding: 20px;
+  }
+
+  /* Talks */
+  .talk-item {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  /* Teaching */
   .teaching-item {
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
   }
 
   .teaching-period {
     width: auto;
+  }
+}
+
+/* iPhone / small mobile (≤ 480px) */
+@media (max-width: 480px) {
+  section {
+    padding: 60px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .section-header {
+    margin-bottom: 28px;
+  }
+
+  /* Nav */
+  .nav-container {
+    padding: 14px 16px;
+  }
+
+  /* Hero */
+  .hero-name {
+    font-size: 2rem;
+  }
+
+  .hero-title {
+    font-size: 0.95rem;
+  }
+
+  .hero-tagline {
+    font-size: 0.9rem;
+  }
+
+  .avatar-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hero-socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .social-btn {
+    justify-content: center;
+    padding: 10px 12px;
+    font-size: 0.82rem;
+  }
+
+  .social-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Skills */
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Timeline */
+  .timeline-card {
+    padding: 16px;
+  }
+
+  .timeline-role {
+    font-size: 1rem;
+  }
+
+  .timeline-company-name {
+    font-size: 1.1rem;
+  }
+
+  /* Awards */
+  .award-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+  }
+
+  .award-rank {
+    margin: 0 auto;
+  }
+
+  .award-title {
+    font-size: 1rem;
+  }
+
+  /* Courses */
+  .course-card {
+    padding: 20px;
+  }
+
+  /* Talks */
+  .talk-event-badge {
+    font-size: 0.72rem;
+    padding: 2px 8px;
   }
 }
